@@ -11,15 +11,19 @@ chrome.extension.sendMessage({}, function(response) {
         // Replace page title
         document.title = generateReplacment(document.title);
 
-        // Get all text nodes to check
-        var textNodes = $('body *').contents().filter(function() {
-            return this.nodeType == Node.TEXT_NODE;
-        });
+        // Create a tree walker to traverse all text nodes
+        var walker = document.createTreeWalker(
+            document.body,
+            NodeFilter.SHOW_TEXT,
+            null,
+            false
+        );
 
         // Replace all text nodes
-        textNodes.each(function(index, textNode) {
+        var textNode;
+        while(textNode = walker.nextNode()) {
             textNode.nodeValue = generateReplacment(textNode.nodeValue);
-        });
+        }
     }
 
     function generateReplacment(text) {
