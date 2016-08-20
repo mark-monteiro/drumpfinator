@@ -51,20 +51,33 @@ chrome.extension.sendMessage({}, function(response) {
         const adjectives1 = [
             "Large",
             "Tiny",
-            "Wilting",
-            "Bulbous"
+            "Bulbous",
+            "Narcissistic",
+            "Obnoxious",
+            "Delusional"
         ];
 
         const adjectives2 = [
             "Orange",
             "Greasy",
-            "Decayed"
+            "Decaying",
+            "Wilting",
+            "Balding",
+            "Bipolar",
+            "Droopy"
         ];
 
         const nouns = [
             "Corn Cob",
             "Hand Gnome",
-            "Butternet Squash"
+            "Butternet Squash",
+            "Oompa Loompa",
+            "Sentient Toupee",
+            "Man-Baby",
+            "Canadian Goose",
+            "Clown",
+            "Potato",
+            // Combover
         ];
 
         // TODO: perform with a single replace command
