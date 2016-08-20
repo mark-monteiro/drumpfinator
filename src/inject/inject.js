@@ -2,7 +2,6 @@ chrome.extension.sendMessage({}, function(response) {
     var readyStateCheckInterval = setInterval(function() {
         if (document.readyState === "complete") {
             clearInterval(readyStateCheckInterval);
-
             main();
         }
     }, 10);
@@ -27,22 +26,22 @@ chrome.extension.sendMessage({}, function(response) {
     }
 
     function generateReplacment(text) {
-        var regex = /Donald( (John|J|J.))? Trump/gi;
+        const regex = /Donald( (John|J|J.))? Trump/gi;
 
-        var adjectives1 = [
+        const adjectives1 = [
             "Large",
             "Tiny",
             "Wilting",
             "Bulbous"
         ];
 
-        var adjectives2 = [
+        const adjectives2 = [
             "Orange",
             "Greasy",
             "Decayed"
         ];
 
-        var nouns = [
+        const nouns = [
             "Corn Cob",
             "Hand Gnome",
             "Butternet Squash"
