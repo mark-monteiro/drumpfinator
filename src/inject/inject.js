@@ -10,9 +10,29 @@ chrome.extension.sendMessage({}, function(response) {
         // Replace page title
         document.title = generateReplacment(document.title);
 
+        // Replace all initial text on page
+        replaceNodeText(document.body);
+
+        // Create a mutation observer to monitor the DOM for changes
+        var observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                Array.prototype.slice.call(mutation.addedNodes).forEach(replaceNodeText);
+            });
+        });
+
+        // Configure and start the observer
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true,
+            attributes: false,
+            characterData: false
+        });
+    }
+
+    function replaceNodeText(node) {
         // Create a tree walker to traverse all text nodes
         var walker = document.createTreeWalker(
-            document.body,
+            node,
             NodeFilter.SHOW_TEXT,
             null,
             false
