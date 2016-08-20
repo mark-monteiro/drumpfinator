@@ -20,7 +20,7 @@ chrome.extension.sendMessage({}, function(response) {
 
         // Replace all text nodes
         var textNode;
-        while(textNode = walker.nextNode()) {
+        while(!!(textNode = walker.nextNode())) {
             textNode.nodeValue = generateReplacment(textNode.nodeValue);
         }
     }
@@ -47,6 +47,7 @@ chrome.extension.sendMessage({}, function(response) {
             "Butternet Squash"
         ];
 
+        // TODO: perform with a single replace command
         return text.replace(regex, getName()).replace("Trump", "Drumpf");
 
         function getName() {
