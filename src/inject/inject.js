@@ -48,23 +48,24 @@ function replaceNodeText(node) {
 function generateReplacment(text) {
     const regex = /Donald( (John|J|J.))? Trump/gi;
 
-    const adjectives1 = [
+    const adjectives = [
         "Large",
         "Tiny",
         "Bulbous",
         "Narcissistic",
         "Obnoxious",
-        "Delusional"
-    ];
-
-    const adjectives2 = [
+        "Delusional",
+        "Fetal",
+        "Putrid",
         "Orange",
         "Greasy",
         "Decaying",
         "Wilting",
         "Balding",
         "Bipolar",
-        "Droopy"
+        "Droopy",
+        "Petulent",
+        "Toupeed"
     ];
 
     const nouns = [
@@ -72,20 +73,24 @@ function generateReplacment(text) {
         "Hand Gnome",
         "Butternet Squash",
         "Oompa Loompa",
-        "Sentient Toupee",
         "Man-Baby",
         "Canadian Goose",
         "Clown",
         "Potato",
-        // Combover
+        "Orangutan",
+        "Dried Apricot",
+        "Mustard Tiger",
+        "Fish Frog",
+        "Corn Dog",
+        "Marshmallow"
     ];
 
     // TODO: perform with a single replace command
     return text.replace(regex, getName()).replace("Trump", "Drumpf");
 
     function getName() {
-        var name = getRandomElement(adjectives1)
-        if(Math.random() > 0.5) name  += " " + getRandomElement(adjectives2)
+        var name = getRandomElement(adjectives);
+        if(Math.random() > 0.4) name  += " " + getRandomElement(adjectives);
         return name + " " + getRandomElement(nouns);
     }
 
