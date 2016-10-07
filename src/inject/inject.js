@@ -49,15 +49,13 @@ function generateReplacment(text) {
     const regex = /Donald( (John|J|J.))? Trump/gi;
 
     const adjectives = [
-        "Large",
-        "Tiny",
+        "Orange",
         "Bulbous",
         "Narcissistic",
         "Obnoxious",
         "Delusional",
         "Fetal",
         "Putrid",
-        "Orange",
         "Greasy",
         "Decaying",
         "Wilting",
@@ -65,8 +63,17 @@ function generateReplacment(text) {
         "Bipolar",
         "Droopy",
         "Petulent",
-        "Toupeed"
+        "Toupeed",
+        "Bleached"
     ];
+
+    const prefixAdjectives = [
+        "Large",
+        "Tiny"
+    ].concat(adjectives);
+
+    const suffixAdjectives = [
+    ].concat(adjectives);
 
     const nouns = [
         "Corn Cob",
@@ -89,9 +96,10 @@ function generateReplacment(text) {
     return text.replace(regex, getName()).replace("Trump", "Drumpf");
 
     function getName() {
-        var name = getRandomElement(adjectives);
-        if(Math.random() > 0.4) name  += " " + getRandomElement(adjectives);
-        return name + " " + getRandomElement(nouns);
+        var prefix = getRandomElement(prefixAdjectives);
+        var suffix;
+        do suffix = getRandomElement(adjectives); while(suffix === prefix);
+        return prefix + " " + suffix + " " + getRandomElement(nouns);
     }
 
     function getRandomElement(array) {
