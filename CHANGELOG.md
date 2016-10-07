@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.1.5] - Unreleased
+### Added
+- New adjectives: bleached
+### Changed
+- Added a separate list of adjectives that can only be used as a prefix
+### Fixed
+- Ensure the same adjective isn't selected twice in the same generation
+
 ## [1.1.4] - 2016-09-22
 ### Added
 - This changelog!
