@@ -64,7 +64,7 @@ function generateReplacment(text) {
         "Petulent",
         "Toupeed",
         "Bleached",
-        "Pumpkin-Spiced"
+        "Pumpkin-Spiced",
         "Mouth-Eyed",
         "Dangerously Cheesy",
         "Shrivelled",
