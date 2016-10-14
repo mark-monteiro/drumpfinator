@@ -60,11 +60,23 @@ function generateReplacment(text) {
         "Decaying",
         "Wilting",
         "Balding",
-        "Bipolar",
         "Droopy",
         "Petulent",
         "Toupeed",
-        "Bleached"
+        "Bleached",
+        "Pumpkin-Spiced"
+        "Mouth-Eyed",
+        "Dangerously Cheesy",
+        "Shrivelled",
+        "Melting",
+        "Parasitic",
+        "Sexually Frustrated",
+        "Racist",
+        "Sniffling",
+        "Gaseous",
+        "Flabby",
+        "Gelatenous",
+        "Machiavellian"
     ];
 
     const prefixAdjectives = [
@@ -83,13 +95,22 @@ function generateReplacment(text) {
         "Man-Baby",
         "Canadian Goose",
         "Clown",
-        "Potato",
+        "Sweet Potato",
         "Orangutan",
         "Dried Apricot",
         "Mustard Tiger",
         "Fish Frog",
         "Corn Dog",
-        "Marshmallow"
+        "Marshmallow",
+        "Traffic Cone",
+        "Cheese Puff",
+        "Jack-O-Lantern",
+        "Scarecrow",
+        "Neanderthal",
+        "Haystack",
+        "Taco Bowl",
+        "Plantar Wart",
+        "Mr. Potato Head"
     ];
 
     // TODO: perform with a single replace command

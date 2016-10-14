@@ -6,9 +6,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.1.5] - Unreleased
 ### Added
-- New adjectives: bleached
+- New adjectives: Bleached, Mouth-Eyed, Pumpkin-Spiced, Dangerousy Cheesy,
+  Shrivelled, Melting, Parasitic, Sexually Frustrated, Racist, Sniffling,
+  Flabby, Gelatenous
+- New nouns: Mashmallow, Traffic Cone, Cheese Puff, Jack-O-Lantern, Scarecrow,
+  "Neanderthal", "Gaseous"
 ### Changed
 - Added a separate list of adjectives that can only be used as a prefix
+- 'Potato' to 'Sweet Potato'
+### Removed
+- Removed 'bipolar', because being PC isn't always a bad thing
 ### Fixed
 - Ensure the same adjective isn't selected twice in the same generation
 
