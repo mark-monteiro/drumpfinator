@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+## [1.1.6] - 2017-01-21
 ### Added
 - New adjectives: Irritable, Tempermental, Fossilized, Spray-Tanned, Malignant
 - New nouns: Dorito, Whale Blubber, Block of Aged Cheddar, Rumpelstiltskin,
