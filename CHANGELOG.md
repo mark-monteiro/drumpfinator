@@ -5,9 +5,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+- New adjectives: Irritable, Tempermental, Fossilized, Spray-Tanned, Malignant
+- New nouns: Dorito, Whale Blubber, Block of Aged Cheddar, Rumpelstiltskin,
+  Tangerine, Hot Dog Casing
 ### Fixed
-- Don't alter the text of contentEditable nodes. This fixes issues with typing
-  messages in Facebook chat etc.
+- Don't alter the text of contentEditable nodes. This fixes issues with
+  typing messages in Facebook chat etc.
 
 ## [1.1.5] - 2016-10-13
 ### Added

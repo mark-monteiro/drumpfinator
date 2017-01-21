@@ -83,7 +83,12 @@ function generateReplacment(text) {
         "Gaseous",
         "Flabby",
         "Gelatenous",
-        "Machiavellian"
+        "Machiavellian",
+        "Irritable",
+        "Tempermental",
+        "Fossilized",
+        "Spray-Tanned",
+        "Malignant"
     ];
 
     const prefixAdjectives = [
@@ -117,7 +122,13 @@ function generateReplacment(text) {
         "Haystack",
         "Taco Bowl",
         "Plantar Wart",
-        "Mr. Potato Head"
+        "Mr. Potato Head",
+        "Dorito",
+        "Whale Blubber",
+        "Block of Aged Cheddar",
+        "Rumpelstiltskin",
+        "Tangerine",
+        "Hot Dog Casing"
     ];
 
     // TODO: perform with a single replace command
