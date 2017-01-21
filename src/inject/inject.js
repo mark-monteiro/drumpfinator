@@ -34,7 +34,14 @@ function replaceNodeText(node) {
     var walker = document.createTreeWalker(
         node,
         NodeFilter.SHOW_TEXT,
-        null,
+        {
+            acceptNode: function(node) {
+                // Reject contentEditable nodes
+                return (node.parentElement && node.parentElement.isContentEditable) ?
+                    NodeFilter.FILTER_SKIP :
+                    NodeFilter.FILTER_ACCEPT;
+            }
+        },
         false
     );
 

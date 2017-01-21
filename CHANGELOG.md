@@ -4,16 +4,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+### Fixed
+- Don't alter the text of contentEditable nodes. This fixes issues with typing
+  messages in Facebook chat etc.
+
 ## [1.1.5] - 2016-10-13
 ### Added
 - New adjectives: Bleached, Mouth-Eyed, Pumpkin-Spiced, Dangerousy Cheesy,
   Shrivelled, Melting, Parasitic, Sexually Frustrated, Racist, Sniffling,
   Flabby, Gelatenous
 - New nouns: Mashmallow, Traffic Cone, Cheese Puff, Jack-O-Lantern, Scarecrow,
-  "Neanderthal", "Gaseous"
+  Neanderthal, Gaseous
 ### Changed
 - Added a separate list of adjectives that can only be used as a prefix
-- 'Potato' to 'Sweet Potato'
+- Changed 'Potato' to 'Sweet Potato'
 ### Removed
 - Removed 'bipolar', because being PC isn't always a bad thing
 ### Fixed
