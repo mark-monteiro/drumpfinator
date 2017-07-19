@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.1.7] - 2017-07-18
+### Added
+- New adjectives: Carrot-Topped, Senseless, Screaming, Egotistical,
+  Belligerent, Grandiloquent, Illiterate, Short-Fingered
+- New nouns: Cheese Grit, Cofvefe, Malfunctioning Dalek, Russian Poodle,
+  Beelzebub, Abradolf Lincler, Leaning Tower Of Cheeza, Trumpy McTrumpface,
+  Dumpster Fire, SCROTUS
+
 ## [1.1.6] - 2017-01-21
 ### Added
 - New adjectives: Irritable, Tempermental, Fossilized, Spray-Tanned, Malignant
