@@ -88,7 +88,15 @@ function generateReplacment(text) {
         "Tempermental",
         "Fossilized",
         "Spray-Tanned",
-        "Malignant"
+        "Malignant",
+        "Carrot-Topped",
+        "Senseless",
+        "Screaming",
+        "Egotistical",
+        "Belligerent",
+        "Grandiloquent",
+        "Illiterate",
+        "Short-Fingered"
     ];
 
     const prefixAdjectives = [
@@ -128,7 +136,18 @@ function generateReplacment(text) {
         "Block of Aged Cheddar",
         "Rumpelstiltskin",
         "Tangerine",
-        "Hot Dog Casing"
+        "Hot Dog Casing",
+        "Cheese Grit",
+        "Covfefe",
+        "Malfunctioning Dalek",
+        "Russian Poodle",
+        "Beelzebub",
+        "Rum Ham",
+        "Abradolf Lincler",
+        "Leaning Tower Of Cheeza",
+        "Trumpy McTrumpface",
+        "Dumpster Fire",
+        "SCROTUS"
     ];
 
     // TODO: perform with a single replace command
