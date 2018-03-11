@@ -30,6 +30,10 @@ function main() {
 }
 
 function replaceNodeText(node) {
+
+    // Do nothing for nodes contained in a Google Docs editor (sorry I.E. no support for you)
+    if(node.closest && node.closest('.kix-appview')) return;
+
     // Create a tree walker to traverse all text nodes
     var walker = document.createTreeWalker(
         node,
