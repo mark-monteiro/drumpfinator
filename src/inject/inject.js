@@ -65,7 +65,6 @@ function generateReplacment(text) {
         "Narcissistic",
         "Obnoxious",
         "Delusional",
-        "Fetal",
         "Putrid",
         "Greasy",
         "Decaying",
@@ -100,7 +99,11 @@ function generateReplacment(text) {
         "Belligerent",
         "Grandiloquent",
         "Illiterate",
-        "Short-Fingered"
+        "Short-Fingered",
+        "Dissonant",
+        "Larval",
+        "Maladroit"
+
     ];
 
     const prefixAdjectives = [
@@ -151,7 +154,10 @@ function generateReplacment(text) {
         "Leaning Tower Of Cheeza",
         "Trumpy McTrumpface",
         "Dumpster Fire",
-        "SCROTUS"
+        "SCROTUS",
+        "Annoying Orange",
+        "Jizz Trumpet",
+        "Bagpipe"
     ];
 
     // TODO: perform with a single replace command

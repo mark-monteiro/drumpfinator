@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## Unreleased
+
+### Added
+
+- New adjectives: Dissonant, Larval, Maladroit
+- New nouns: Annoying Orange, Jizz Trumpet, Bagpipe
+
+### Removed
+
+- Removed fetal as an adjective. Didn't seem very nice.
+
 ## [1.1.8] - 2018-03-11
 
 ### Fixed
